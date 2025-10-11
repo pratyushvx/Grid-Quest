@@ -1,0 +1,43 @@
+-------------------------------
+        JAVA SUMMARY NOTES
+-------------------------------
+
+☕ JDK (Java Development Kit)
+- Complete package to develop and run Java programs.
+- Contains:
+  • JRE → Runs programs
+  • Development Tools → javac, java, jar, javadoc, etc.
+- Formula: JDK = JRE + Development Tools
+
+🔹 JRE (Java Runtime Environment)
+- Provides environment to execute Java code.
+- Contains:
+  • JVM → Executes bytecode
+  • Core Libraries → Predefined Java classes
+- Formula: JRE = JVM + Core Libraries
+
+🔹 JVM (Java Virtual Machine)
+- Executes .class (bytecode) files.
+- Converts bytecode → machine code.
+- Handles memory, garbage collection, and security.
+
+
+🔹 How Java Runs (Steps)
+1. Write code → Hello.java
+2. Compile → javac Hello.java → Hello.class (bytecode)
+3. JVM loads class file
+4. Bytecode verified
+5. JVM interprets or JIT compiles
+6. Program executes
+7. JVM handles memory (GC) and exits
+
+
+🔹 Flow Summary
+.java  →  (javac)  →  .class  →  (JVM)  →  Machine Code
+
+
+ Short:
+JDK = JRE + Tools
+JRE = JVM + Libraries
+JVM = Runs bytecode on any platform
+→ "Write Once, Run Anywhere"
