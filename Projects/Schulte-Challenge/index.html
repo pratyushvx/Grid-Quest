@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top-buttons">
+        <button id="sound-btn">🔊 Sound ON</button>
+        <button id="dark-btn">🌙 Dark Mode</button>
+    </div>
+
+    <div id="container1">
+        <label id="tab">Table Size:</label>
+        <select id="table-select">
+            <option value="3">3 x 3</option>
+            <option value="4">4 x 4</option>
+            <option value="5">5 x 5</option>
+        </select>
+    </div>
+
+    <div id="container2">Start Challenge</div>
+
+    <div id="game-clock"></div>
+
+    <div id="ground"></div>
+
+    <!-- SCORE PANEL -->
+    <div id="score-panel">
+        <p>⏱ Time: <span id="score-time">0</span> sec</p>
+        <p>✅ Correct: <span id="correct">0</span></p>
+        <p>❌ Mistakes: <span id="wrong">0</span></p>
+        <p>🎯 Accuracy: <span id="accuracy">0%</span></p>
+        <p>📊 Progress: <span id="score-progress">0 / 0</span></p>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <a href="./how-to-play/htp.html" class="htplink">?</a>
+
+<script src="script.js"></script>
+</body>
+</html>
